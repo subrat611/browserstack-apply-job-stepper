@@ -1,5 +1,5 @@
 function App() {
-  return <div></div>;
+  return <div className="text-green-500">Machine Coding</div>;
 }
 
 export default App;
