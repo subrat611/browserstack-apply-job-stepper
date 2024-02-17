@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Stepper from "./components/Stepper";
 
 function App() {
   const [isNextBtnClicked, setIsNextBtnClicked] = useState(false);
@@ -17,7 +18,7 @@ function App() {
           <h3 className="text-lg font-medium tracking-wide">
             Fullstack Developer
           </h3>
-          {/* stepper */}
+          <Stepper />
           {/* body */}
         </div>
         <div className="fixed w-full max-w-[1280px] bg-white bottom-0 border border-t-gray-200 h-[80px] flex items-center justify-end z-10">
