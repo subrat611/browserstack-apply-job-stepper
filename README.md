@@ -7,12 +7,12 @@ Similar to the BrowserStack apply job screen.
 ## Stepper steps
 
 | My Information |
-| :------------: |
-|    Country     |
+| -------------- |
+| Country        |
 | Given Name(s)  |
-|  Family Name   |
+| Family Name    |
 | Address Line 1 |
-|      City      |
-|  Postal Code   |
-|     Email      |
-|  Phone Number  |
+| City           |
+| Postal Code    |
+| Email          |
+| Phone Number   |
