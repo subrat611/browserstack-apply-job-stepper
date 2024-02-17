@@ -13,13 +13,13 @@ Similar to the BrowserStack apply job screen.
 
 ## Stepper steps
 
-| My Information |
-| -------------- |
-| Country        |
-| Given Name(s)  |
-| Family Name    |
-| Address Line 1 |
-| City           |
-| Postal Code    |
-| Email          |
-| Phone Number   |
+| My Information | My Experience   | Application Questions                                                                     | Review |
+| -------------- | --------------- | ----------------------------------------------------------------------------------------- | ------ |
+| Country        | Work Experience | What is your notice period?                                                               |
+| Given Name(s)  | Education       | What are your salary expectations per annum? Please indicate Currency                     |
+| Family Name    | Certifications  | Do you require any adjustments to be made to help you throughout the recruitment process? |
+| Address Line 1 | Languages       |
+| City           | Skills          |
+| Postal Code    | Websites        |
+| Email          |                 |
+| Phone Number   |                 |
