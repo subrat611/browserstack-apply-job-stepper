@@ -8,7 +8,15 @@ const initialState = {
 const stepper = createSlice({
   name: "stepperStore",
   initialState,
-  reducers: {},
+  reducers: {
+    nextStep: (state, { payload }) => {
+      state.currentStep = payload.step;
+    },
+    setIsComplete: (state, { payload }) => {
+      state.isComplete = payload.isComplete;
+    },
+  },
 });
 
+export const { nextStep } = stepper.actions;
 export default stepper.reducer;
