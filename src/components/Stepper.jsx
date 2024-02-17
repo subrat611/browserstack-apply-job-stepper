@@ -24,7 +24,25 @@ const Stepper = forwardRef((props, ref) => {
               currentStep === i + 1 ? "bg-blue-500" : "bg-gray-400"
             } ${(currentStep > i + 1 || isComplete) && "bg-green-500"}`}
           >
-            <div className="w-2 h-2 rounded-full bg-white"></div>
+            {currentStep > i + 1 || isComplete ? (
+              <svg
+                width="14"
+                height="14"
+                viewBox="0 0 16 16"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill="none"
+                  stroke="#fff"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="1.5"
+                  d="m2.75 8.75l3.5 3.5l7-7.5"
+                />
+              </svg>
+            ) : (
+              <div className="w-2 h-2 rounded-full bg-white"></div>
+            )}
           </div>
           <p className="text-gray-700 font-medium text-sm hidden md:inline-block">
             {step.name}
